@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+.wrap-admin{
+    background-color:#2f3640;
+}
+.tieude{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    color:#fbc531;
+    font-family: 'Inconsolata', monospace;
+}
+.container{
+    border:2px solid blue;
+    margin: 10px auto;
+    width: 1200px;
+}
+textarea{
+    resize: none;
+}
+table{
+    table-layout:fixed;
+}
+th, td{
+    overflow: hidden;
+}
+
+
+
+/*-------------CATEGORIES----------------*/
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+.input_danhmuc{
+    width: 500px;
+    height:47px;
+    line-height: 47px;
+    margin: 0 10px;
+    outline: none;
+    border: 1px solid #bdc3c7;
+    padding:10px;
+    box-sizing: border-box;
+    transition: .4s ease-in-out;
+}
+.input_danhmuc:focus{
+    background:#bdc3c7;
+}
+/*-----------------X---------------------*/
+.chitiet_sp{
+    overflow: auto;
+    transition: .4s ease-in-out;
+    margin-top: 10px;
+}
+.active{
+    background-color:#27ae60;
+}
+
+/*-----------------------------------------*/
+
+.admin_theme{
+    margin:20px;
+    border-radius: 15px;
+    background: #dcdde1;
+    border:none;
+    box-shadow: 5px 7px 36px black;
+}
